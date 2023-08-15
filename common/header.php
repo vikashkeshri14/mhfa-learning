@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/css/plugins.css">
     <!-- Icon Plugins CSS -->
@@ -98,8 +98,8 @@
                 <div class="mobile-responsive-menu">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="assets/images/logos/logo-small.png" class="logo-one" alt="logo">
-                            <img src="assets/images/logos/logo-small-white.png" class="logo-two" alt="logo">
+                            <img src="assets/images/logos/mhfa_logo.png" class="logo-one" alt="logo">
+                            <img src="assets/images/logos/mhfa_logo.png" class="logo-two" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -111,8 +111,8 @@
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-md navbar-light ">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/logos/logo.png" class="logo-one" alt="Logo">
-                        <img src="assets/images/logos/logo-2.png" class="logo-two" alt="Logo">
+                        <img src="assets/images/logos/mhfa_logo.png" class="logo-one" alt="Logo">
+                        <img src="assets/images/logos/mhfa_logo.png" class="logo-two" alt="Logo">
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -123,102 +123,73 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="about.html" class="nav-link">
-                                            About Us
+                                        <a href="story.php" class="nav-link">
+                                            MHFA story
+
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="testimonials.html" class="nav-link">
-                                            Testimonials
+                                        <a href="vission-mission.php" class="nav-link">
+                                            MHFA Vision/Mission
+
+
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="faq.html" class="nav-link">
-                                            FAQ
+                                        <a href="achivement.php" class="nav-link">
+                                            MHFA acheviment
+
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="cart.html" class="nav-link">
-                                            Cart
+                                        <a href="goal.php" class="nav-link">
+                                            MHFA Goal
+
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="checkout.html" class="nav-link">
-                                            Checkout
+                                        <a href="team.php" class="nav-link">
+                                            Our Team
+
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">
-                                            Instructors
+                                        <a href="leader.php" class="nav-link ">
+                                            Leaders
                                         </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="instructors.html" class="nav-link">
-                                                    Instructors
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="instructors-details.html" class="nav-link">
-                                                    Instructors Details
-                                                </a>
-                                            </li>
-                                        </ul>
+
                                     </li>
                                     <li class="nav-item">
-                                        <a href="pricing.html" class="nav-link">
+                                        <a href="pricing.php" class="nav-link">
                                             Pricing Plan
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">
-                                            User
+                                        <a href="partner.php" class="nav-link ">
+                                            Partners
                                         </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="signin.html" class="nav-link">
-                                                    Sign in
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="signup.html" class="nav-link">
-                                                    Sign Up
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="forgot-password.html" class="nav-link">
-                                                    Forgot Password
-                                                </a>
-                                            </li>
-                                        </ul>
+
                                     </li>
                                     <li class="nav-item">
-                                        <a href="terms-condition.html" class="nav-link">
-                                            Terms & Conditions
+                                        <a href="ambasedor.php" class="nav-link">
+                                            MHFA ambasedor
+
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="privacy-policy.html" class="nav-link">
-                                            Privacy Policy
+                                        <a href="course.php" class="nav-link">
+                                            MHFA studies
+
                                         </a>
                                     </li>
 
-                                    <li class="nav-item">
-                                        <a href="404.html" class="nav-link">
-                                            404 Page
-                                        </a>
-                                    </li>
 
-                                    <li class="nav-item">
-                                        <a href="coming-soon.html" class="nav-link">
-                                            Coming Soon
-                                        </a>
-                                    </li>
                                 </ul>
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="about-us.php" class="nav-link">
                                     About Us
                                 </a>
 
@@ -227,7 +198,7 @@
 
 
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link">
+                                <a href="contact.php" class="nav-link">
                                     Contact Us
                                 </a>
                             </li>
