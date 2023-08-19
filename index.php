@@ -7,7 +7,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <span class="top-title">CHOOSE YOUR BEST COURSE</span>
+
                             <h1>A course is essential for building career</h1>
                             <p>
                                 Flexible easy to access learning opportunities can bring a significant change in
@@ -59,7 +59,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <span class="top-title">CHOOSE YOUR BEST COURSE</span>
+
                             <h1>Start learning from best platform</h1>
                             <p>
                                 Flexible easy to access learning opportunities can bring a significant change in
@@ -111,7 +111,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <span class="top-title">CHOOSE YOUR BEST COURSE</span>
+
                             <h1>Improve your skills by study with us</h1>
                             <p>
                                 Flexible easy to access learning opportunities can bring a significant change in
@@ -172,58 +172,86 @@
 
 
 <!-- Enrolled Area -->
-<div class="enrolled-area-two pb-70 pt-5">
+<div class="enrolled-area-two pt-100 pb-70">
     <div class="container">
         <div class="row align-items-center">
-
-            <div class="col-lg-12">
+            <div class="col-lg-6">
+                <div class="enrolled-img-three mb-30 pr-20">
+                    <img src="assets/images/enrolled/enrolled-img3.jpg" alt="Enrolled">
+                    <div class="enrolled-img-content">
+                        <i class="flaticon-discount"></i>
+                        <div class="content">
+                            <h3>Get 40% off</h3>
+                            <p>Every course</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
                 <div class="enrolled-content mb-30">
                     <div class="section-title">
-                        <span>About Us</span>
+                        <span>WHO WE ARE</span>
                         <h2>We have the most qualified instructors in your hometown.</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra
+                            maecenas accumsan lacus vel facilisis.
                         </p>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <ul class="enrolled-list">
+                                <li><i class="flaticon-check"></i> Full lifetime access</li>
+                                <li><i class="flaticon-check"></i> Certificate of completion</li>
+                            </ul>
+                        </div>
 
+                        <div class="col-lg-6 col-6">
+                            <ul class="enrolled-list">
+                                <li><i class="flaticon-check"></i> 20+ downloadable resources</li>
+                                <li><i class="flaticon-check"></i> Free trial 7 days</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="courses.html" class="default-btn border-radius-50">Enrolled today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Enrolled Area End -->
 
+<!-- Counter Area -->
+<div class="counter-area-three pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="counter-card box-shadow">
+                    <i class="flaticon-online-course"></i>
+                    <h3><span class="odometer" data-count="15000">00000</span>+</h3>
+                    <p>Courses & videos</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="counter-card box-shadow">
+                    <i class="flaticon-student"></i>
+                    <h3><span class="odometer" data-count="145000">000000</span>+</h3>
+                    <p>Students enrolled</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="counter-card box-shadow">
+                    <i class="flaticon-online-course-1"></i>
+                    <h3><span class="odometer" data-count="10000">00000</span>+</h3>
+                    <p>Courses instructors</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="counter-card box-shadow">
+                    <i class="flaticon-customer-satisfaction"></i>
+                    <h3><span class="odometer" data-count="100">000</span>%</h3>
+                    <p>Satisfaction rate</p>
                 </div>
             </div>
         </div>

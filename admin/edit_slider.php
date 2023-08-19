@@ -8,16 +8,16 @@
 				<?php include('sidebar_dashboard.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					 <a href="" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Content</a>
+					 <a href="slider.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Slider</a>
 							<!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Edit Content</div>
+		                                <div class="muted pull-left">Edit Slider</div>
 		                            </div>
 		                            <div class="block-content collapse in">
-									<a href="content.php"><i class="icon-arrow-left"></i> Back</a>
+									<a href="slider.php"><i class="icon-arrow-left"></i> Back</a>
 									   <?php
-									   $query = mysqli_query($conn,"select * from content where content_id = '$get_id'")or die(mysqli_error());
+									   $query = mysqli_query($conn,"select * from sliders where id = '$get_id'")or die(mysqli_error());
 									   $row = mysqli_fetch_array($query);
 									   ?>
 									   
@@ -36,11 +36,9 @@
 										</div>
 										
 												<div class="control-group">
-										<label class="control-label" for="inputPassword">Content</label>
+										<label class="control-label" for="inputPassword">Description</label>
 										<div class="controls">
-												<textarea name="content" id="ckeditor_full">
-												<?php echo $row['content']; ?>
-												</textarea>
+												<textarea name="content" id="ckeditor_full"><?php echo $row['description']; ?></textarea>
 										</div>
 										</div>
 												
@@ -79,14 +77,14 @@
 										$title = $_POST['title'];
 										$content = $_POST['content'];
 										if($fileName){
-											mysqli_query($conn,"update content set title = '$title' , content = '$content', image = '$fileName' where content_id = '$get_id'")or die(mysqli_error());
+											mysqli_query($conn,"update sliders set title = '$title' , description = '$content', image = '$fileName' where id = '$get_id'")or die(mysqli_error());
 										} else{
-											mysqli_query($conn,"update content set title = '$title' , content = '$content' where content_id = '$get_id'")or die(mysqli_error());
+											mysqli_query($conn,"update sliders set title = '$title' , sliders = '$content' where id = '$get_id'")or die(mysqli_error());
 										}
 										
 										?>
 										<script>
-										window.location = 'content.php';
+										window.location = 'slider.php';
 										</script>
 										<?php
 										}

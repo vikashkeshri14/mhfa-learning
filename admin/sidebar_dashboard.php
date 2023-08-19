@@ -4,41 +4,53 @@
 						<li>
                             <a href="subjects.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Subject</a>
                         </li>
-						<li>
+						<!-- <li>
                             <a href="class.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Class</a>
-                        </li>
+                        </li> -->
 						<li>
                             <a href="admin_user.php"><i class="icon-chevron-right"></i><i class="icon-user"></i> Admin Users</a>
                         </li>
-						<li>
+						<!-- <li>
                             <a href="department.php"><i class="icon-chevron-right"></i><i class="icon-building"></i> Department</a>
                         </li>
 						<li>
                             <a href="students.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Students</a>
+                        </li> -->
+                        <li>
+                            <a href="our_team.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Our Team</a>
                         </li>
-						<li>
+                        <li>
+                            <a href="leader.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Leaders</a>
+                        </li>
+                        <li>
+                            <a href="partner.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Partners</a>
+                        </li>
+                        <li>
+                            <a href="slider.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Slider</a>
+                        </li>
+						<!-- <li>
                             <a href="teachers.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Teachers</a>
-                        </li>
-						<li>
+                        </li> -->
+						<!-- <li>
                             <a href="downloadable.php"><i class="icon-chevron-right"></i><i class="icon-download"></i> Downloadable Materials</a>
                         </li>
 						<li>
                             <a href="assignment.php"><i class="icon-chevron-right"></i><i class="icon-upload"></i> Uploaded Assignments</a>
-                        </li>
+                        </li> -->
 						<li>
                             <a href="content.php"><i class="icon-chevron-right"></i><i class="icon-file"></i> Content</a>
                         </li>
-						<li>
+						<!-- <li>
                             <a href="user_log.php"><i class="icon-chevron-right"></i><i class="icon-file"></i> User Log</a>
                         </li>
 						<li>
                             <a href="activity_log.php"><i class="icon-chevron-right"></i><i class="icon-file"></i> Activity Log</a>
-                        </li>
-						<li>
+                        </li> -->
+						<!-- <li>
                             <a href="school_year.php"><i class="icon-chevron-right"></i><i class="icon-calendar"></i> School Year</a>
                         </li>
 						<li>
                             <a href="calendar_of_events.php"><i class="icon-chevron-right"></i><i class="icon-calendar"></i>Calendar of Events</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>

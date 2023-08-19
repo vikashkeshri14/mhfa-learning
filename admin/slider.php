@@ -7,11 +7,11 @@
 				<?php include('sidebar_dashboard.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					 <a href="add_content.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Content</a>
+					 <a href="add_slider.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Slider</a>
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Content</div>
+                                <div class="muted pull-left">Slider</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -32,9 +32,9 @@
 										<tbody>
 											
              		<?php
-					$content_query = mysqli_query($conn,"select * from content")or die(mysqli_error());
+					$content_query = mysqli_query($conn,"select * from sliders")or die(mysqli_error());
 					while($row = mysqli_fetch_array($content_query)){
-					$id = $row['content_id'];
+					$id = $row['id'];
 					?>
                               
 										<tr>

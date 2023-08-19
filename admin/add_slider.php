@@ -1,6 +1,5 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
-<?php $get_id = $_GET['id']; ?>
     <body>
 		<?php include('navbar.php'); ?>
         <div class="container-fluid">
@@ -8,39 +7,38 @@
 				<?php include('sidebar_dashboard.php'); ?>
                 <div class="span9" id="content">
                      <div class="row-fluid">
-					 <a href="" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Content</a>
+				
 							<!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Edit Content</div>
+		                                <div class="muted pull-left">Add Content</div>
 		                            </div>
 		                            <div class="block-content collapse in">
 									<a href="content.php"><i class="icon-arrow-left"></i> Back</a>
-									   <?php
-									   $query = mysqli_query($conn,"select * from content where content_id = '$get_id'")or die(mysqli_error());
-									   $row = mysqli_fetch_array($query);
-									   ?>
+									
 									   
 									   <form class="form-horizontal" method="POST" enctype="multipart/form-data">
-									   <div class="control-group"> 
+									  
+									   
+										<div class="control-group"> 
 											<label class="control-label" for="inputEmail">Pic:</label>
                                           <div class="controls">
                                                <input class="input-file uniform_on" name="file" id="fileInput" type="file" required>
                                           </div>
                                         </div>
+
+
 										<div class="control-group">
 										<label class="control-label" for="inputEmail">Title</label>
 										<div class="controls">
-										<input type="text" name="title" id="inputEmail" placeholder="Title" value="<?php echo $row['title']; ?>">
+										<input type="text" name="title" id="inputEmail" placeholder="Title">
 										</div>
 										</div>
 										
 												<div class="control-group">
-										<label class="control-label" for="inputPassword">Content</label>
+										<label class="control-label" for="inputPassword">Description</label>
 										<div class="controls">
-												<textarea name="content" id="ckeditor_full">
-												<?php echo $row['content']; ?>
-												</textarea>
+												<textarea name="content" required ></textarea>
 										</div>
 										</div>
 												
@@ -49,13 +47,14 @@
 										<div class="control-group">
 										<div class="controls">
 										
-										<button name="update" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Update</button>
+										<button name="save" type="submit" class="btn btn-info"><i class="icon-save icon-large"></i> Save</button>
 										</div>
 										</div>
 										</form>
 										
 										<?php
-										if (isset($_POST['update'])){
+										if (isset($_POST['save'])){
+										
 											$fileName='';
 											if(!empty($_FILES["file"]["name"])){ 
 												$targetDir="uploads/";
@@ -78,15 +77,11 @@
 											}
 										$title = $_POST['title'];
 										$content = $_POST['content'];
-										if($fileName){
-											mysqli_query($conn,"update content set title = '$title' , content = '$content', image = '$fileName' where content_id = '$get_id'")or die(mysqli_error());
-										} else{
-											mysqli_query($conn,"update content set title = '$title' , content = '$content' where content_id = '$get_id'")or die(mysqli_error());
-										}
-										
+                                    //    echo "insert into sliders (title,description,image) value('$title','$content','$fileName')";exit;
+										mysqli_query($conn,"insert into sliders (title,description,image) value('$title','$content','$fileName')")or die(mysqli_error());
 										?>
 										<script>
-										window.location = 'content.php';
+										window.location = 'slider.php';
 										</script>
 										<?php
 										}
