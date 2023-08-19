@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include('admin/dbcon.php'); ?>
+<?php require_once('./dbcon.php'); ?>
 <html lang="ar" dir="rtl">
 
 <head>

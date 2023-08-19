@@ -15,7 +15,7 @@
 		
 		echo 'true';
 		
-		mysqli_query($conn,"insert into user_log (username,login_date,user_id)values('$username',NOW(),".$row['user_id'].")")or die(mysqli_error());
+		mysqli_query($conn,"insert into user_log (username,login_date,user_id)values('$username',NOW(),".$row['user_id'].")");
 		 }else{ 
 		echo 'false';
 		}	

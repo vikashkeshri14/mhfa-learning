@@ -258,18 +258,18 @@
     </div>
 </div>
 <!-- Enrolled Area End -->
+<?php 
+if ($row_sql=$mysqli->query("select *from content where content_id=15")) {
+$row = $row_sql->fetch_object();
+
+}
+?>
 <div class="container">
     <div class="ticker">
 
         <div class="news">
             <marquee class="news-content" loop="infinite">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                    Ut enim ad minima veniam </p>
+                <?=$row->content?>
             </marquee>
         </div>
         <div class="title">
